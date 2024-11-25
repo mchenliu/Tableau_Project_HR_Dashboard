@@ -9,7 +9,7 @@
   - [:two: Build Data Source](#two-build-data-source)
   - [:three: Build Charts](#three-build-charts)
   - [:four: Dashboard Build](#four-dashboard-build)
-  - [Conclusion](#conclusion)
+- [Conclusion](#conclusion)
   - [What I Learned](#what-i-learned)
 
 
@@ -27,8 +27,8 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 :mag: Check out my HR dashboard on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/HumanResourcesDashboard_17325382179870/DetailDashboard).
 
 ## Tools Used
-**:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting. 
-**:pencil2: draw.io:** Used to sketch the container structures for dashboard design.
+**:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
+**:pencil2: draw.io:** Used to sketch the container structures for dashboard design.  
 **:octopus:Git & Github:** My go-to for version control and tracking my project progress.  
 
 # Steps to Build Dashboards
@@ -153,5 +153,5 @@ Integrated filters and dynamic calculated fields into Tableau for enhanced inter
 
 
 
-## Conclusion
+# Conclusion
 ## What I Learned
