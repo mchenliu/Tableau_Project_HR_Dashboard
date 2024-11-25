@@ -118,10 +118,10 @@ The sctrucre for the **Overview Dashboard** is:
   - Income Analysis: Discovered correlation between education level, gender and salary
 
 *Define different objects in the sketch*  
-![Dashboard1_2](/Material/Images/Dashboard1_2.png)
-*Overview Dashboard sketch*  
-![Dashboard1_1](/Material/Images/Dashboard1_1.png)
-*Detail design for chart containers* 
+![Dashboard1_2](/Material/Images/Dashboard1_2.png)  
+*Overview Dashboard sketch*   
+![Dashboard1_1](/Material/Images/Dashboard1_1.png)  
+*Detail design for chart containers*   
 ![Dashboard1_3](/Material/Images/Dashboard1_3.png)  
 
 The sctructure for the **Employees Details Dashboard** was very similar to the Overview Dashboard:
