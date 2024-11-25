@@ -119,9 +119,9 @@ The sctrucre for the **Overview Dashboard** is:
 
 *Define different objects in the sketch*  
 ![Dashboard1_2](/Material/Images/Dashboard1_2.png)  
-*Overview Dashboard sketch*   
+*Overview Dashboard sketch*  
 ![Dashboard1_1](/Material/Images/Dashboard1_1.png)  
-*Detail design for chart containers*   
+*Detail design for chart containers*  
 ![Dashboard1_3](/Material/Images/Dashboard1_3.png)  
 
 The sctructure for the **Employees Details Dashboard** was very similar to the Overview Dashboard:
