@@ -1,12 +1,8 @@
-# :construction: WORK IN PROGRESS :construction:
-___
-Check Dashboard [here](https://public.tableau.com/app/profile/mei.liu4813/viz/HR_Dashboard_17323664879310/HRDashboard?publish=yes)
-## Table of Contents
-- [:construction: WORK IN PROGRESS :construction:](#construction-work-in-progress-construction)
-  - [Table of Contents](#table-of-contents)
-  - [Human Resources Dashboard | Overview](#human-resources-dashboard--overview)
-  - [Human Resrouces Dashboard | Details](#human-resrouces-dashboard--details)
-  - [Introduction](#introduction)
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Human Resources Dashboard | Overview](#human-resources-dashboard--overview)
+- [Human Resrouces Dashboard | Details](#human-resrouces-dashboard--details)
+- [Introduction](#introduction)
   - [Tools Used](#tools-used)
 - [Steps to Build Dashboards](#steps-to-build-dashboards)
   - [:one: Define User Requirements](#one-define-user-requirements)
@@ -16,13 +12,14 @@ Check Dashboard [here](https://public.tableau.com/app/profile/mei.liu4813/viz/HR
   - [Conclusion](#conclusion)
   - [What I Learned](#what-i-learned)
 
-## Human Resources Dashboard | Overview
+
+# Human Resources Dashboard | Overview
 ![Overview_Dashboard](/Material/Images/Overview_Dashboard.gif)
-## Human Resrouces Dashboard | Details
+# Human Resrouces Dashboard | Details
 ![Detailed_Dashboard](/Material/Images/Detailed_Dashboard.gif)
 
 
-## Introduction  
+# Introduction  
 
 In this project, I developed two human resources dashboards: Overview and Employee Details. These concise and interactive dashboards effectively present key insights into employee demographics, departmental distribution, income levels, and educational backgrounds.
 
