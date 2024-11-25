@@ -90,22 +90,22 @@ RANK([% Total Hired]) <= 2
 
 **Charts Used**
 
-- BAN (Big Ass Numbers) + Line Chart: Ideal for presenting KPIs at a glance. I combined BANs with line charts to show the trend of active and terminated employees over time.  
+- **:chart_with_upwards_trend: BAN (Big Ass Numbers) + Line Chart:** Ideal for presenting KPIs at a glance. I combined BANs with line charts to show the trend of active and terminated employees over time.  
 ![BAN](/Material/Images/BANs.png)  
-- Bar Chart: Effective for visualizing distributions. In this dashboard, bar charts were used to display the distribution of employees across departments. They also provided breakdowns of dimensions like education levels and age groups.  
+- **:bar_chart: Bar Chart:** Effective for visualizing distributions. In this dashboard, bar charts were used to display the distribution of employees across departments. They also provided breakdowns of dimensions like education levels and age groups.  
 ![Bar_Chart](/Material/Images/Bar_Chart_Department.png)  
-- Map: Used to illustrate location hierarchies, detailing relationships between location, state, and city.  
+- **:globe_with_meridians: Map**: Used to illustrate location hierarchies, detailing relationships between location, state, and city.  
 ![Map](/Material/Images/Map_Location.png)  
-- Pie Chart: Represented gender distribution and the proportion of active versus terminated employees in a visually intuitive format.  
+- **:pizza: Pie Chart:** Represented gender distribution and the proportion of active versus terminated employees in a visually intuitive format.  
 ![Pie_Chart](/Material/Images/Pie_Gender.png)  
-- Heat Map: Highlighted relationships and distributions between dimensions. Two heat maps were created: Age Group vs. Education Level and Education Level vs. Performance Rating. The highest percentages and counts were visually emphasized.  
+- **:fire: Heat Map:** Highlighted relationships and distributions between dimensions. Two heat maps were created: Age Group vs. Education Level and Education Level vs. Performance Rating. The highest percentages and counts were visually emphasized.  
 *Age Group vs. Education Level*  
 ![Heat_Map_1](/Material/Images/Heat_Map_1.png)    
 *Education Level vs. Performance Rating*  
 ![Heat_Map_2](/Material/Images/Heat_Map_2.png)  
-- Barbell Chart: Revealed the gender pay gap across different education levels, providing a clear view of disparities.  
+- **:red_circle::heavy_minus_sign::white_circle: Barbell Chart:** Revealed the gender pay gap across different education levels, providing a clear view of disparities.  
 ![Barbell_Chart](/Material/Images/Barbell_Chart.png)  
-- Scatter Plot: Demonstrated the relationship between age and salary, uncovering potential trends and correlations.  
+- **:milky_way: Scatter Plot:** Demonstrated the relationship between age and salary, uncovering potential trends and correlations.  
 ![Scatter_Plot](/Material/Images/Scatter_Plot.png)  
 ## :four: Dashboard Build
 The first step at this stage was to sketch out the dashboard design briefly with draw.io.
