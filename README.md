@@ -29,8 +29,8 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 ## Tools Used
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting. 
 **:pencil2: draw.io:** Used to sketch the container structures for dashboard design.
-**:octopus:Git & Github:** My go-to for version control and tracking my project progress.
-___
+**:octopus:Git & Github:** My go-to for version control and tracking my project progress.  
+
 # Steps to Build Dashboards
 ## :one: Define User Requirements
 - Identified the needs of the target audience and outlined the key metrics and visualizations to be included in the dashboards.
@@ -86,13 +86,13 @@ RANK([% Total Hired]) <= 2
 ```
 
 ___
-**Charts Used**
+**Charts Used**  
 Each chart type was selected for its ability to effectively communicate specific insights:
 - **:chart_with_upwards_trend: BAN (Big Ass Numbers) + Line Chart:** Ideal for presenting KPIs at a glance. I combined BANs with line charts to show KPIs and trends for active vs. terminated employees over time.
 ![BAN](/Material/Images/BANs.png)  
 - **:bar_chart: Bar Chart:** Effective for visualizing distributions. In this dashboard, bar charts highlighted departmental distribution and breakdowns of education levels and age groups.
 ![Bar_Chart](/Material/Images/Bar_Chart_Department.png)  
-- **:globe_with_meridians: Map**: Used to illustrate location hierarchies, detailing relationships between location, state, and city.
+- **:world_map: Map**: Used to illustrate location hierarchies, detailing relationships between location, state, and city.
 ![Map](/Material/Images/Map_Location.png)  
 - **:pizza: Pie Chart:** RRepresented gender distribution alongside active vs. terminated employee ratios.
 ![Pie_Chart](/Material/Images/Pie_Gender.png)  
@@ -110,8 +110,9 @@ Each chart type was selected for its ability to effectively communicate specific
 ![Scatter_Plot](/Material/Images/Scatter_Plot.png)  
 ## :four: Dashboard Build
 
-**Overview Dashboard**
-**:construction: Structure:**
+**Overview Dashboard**  
+
+**:bricks: Structure:**
 - Navigation Bar: Included logo and navigation icons.
 - Header: Contained a dashboard title and filters.
 - Charts:  
@@ -133,7 +134,7 @@ Added calculated fields for enhanced chart presentation.
 ![Dashboard1_3](/Material/Images/Dashboard1_3.png)  
 
 **Employee Details Dashboard**
-**:construction: Structure:**
+**:bricks: Structure:**
 - Navigation Bar: Same as Overview Dashboard.
 - Header: Simplified without filters.
 - Filters: Added seven interactive filters above the employee details list.
