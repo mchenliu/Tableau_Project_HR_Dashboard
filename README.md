@@ -20,7 +20,7 @@
 
 
 # Introduction  
-:mega: In this project, I developed two interactive and concise human resources dashboards: Overview and Employee Details. These dashboards effectively provide key insights into employee demographics, departmental distribution, income levels, and educational backgrounds.
+:mega: In this project, I developed two interactive and concise human resources dashboards: **Overview** and **Employee Details**. These dashboards effectively provide key insights into employee demographics, departmental distribution, income levels, performance rating and educational backgrounds.
 
 The project was completed as part of Baraa Salkini's course on [Udemy](https://www.udemy.com/course/the-tableau-ultimate-course-from-zero-to-hero). The dataset used in this project was generated using ChatGPT and the Faker library. 
 
@@ -33,7 +33,19 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 
 # Steps to Build Dashboards
 ## :one: Define User Requirements
-- Identified the needs of the target audience and outlined the key metrics and visualizations to be included in the dashboards.
+- Identified **Target Audience:** The dashboard is designed for HR managers, addressing two primary needs:
+  1. Overview: Provides high-level insights into key HR metrics.
+  2. Employee Details View: Enables detailed exploration of individual employee data.  
+
+- **Overview:**  
+Divided into three sections to provide comprehensive metrics:
+  1. Overview: Key HR stats such as hired, active, and terminated employees; department/job breakdowns; HQ vs. branches; and location distribution.
+  2. Demographics: Workforce composition by gender, age groups, education levels, and their correlation with performance ratings.
+  3. Income Analysis: Salary comparisons by gender and education, and the relationship between age and salary across departments.  
+- **Employee Details View:**
+  1. Detailed list of employees (name, department, position, gender, age, education, salary).
+  2. Fully filterable by any column.
+
 ## :two: Build Data Source
 - Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
 - Explored the data using Tableau worksheets to understand relationships and potential insights.
@@ -89,25 +101,25 @@ ___
 **Charts Used**  
 Each chart type was selected for its ability to effectively communicate specific insights:
 - **:chart_with_upwards_trend: BAN (Big Ass Numbers) + Line Chart:** Ideal for presenting KPIs at a glance. I combined BANs with line charts to show KPIs and trends for active vs. terminated employees over time.
-![BAN](/Material/Images/BANs.png)  
+![BAN]
 - **:bar_chart: Bar Chart:** Effective for visualizing distributions. In this dashboard, bar charts highlighted departmental distribution and breakdowns of education levels and age groups.
-![Bar_Chart](/Material/Images/Bar_Chart_Department.png)  
+![Bar_Chart](/Material/Images/Bar_Chart.png)
 - **:world_map: Map**: Used to illustrate location hierarchies, detailing relationships between location, state, and city.
-![Map](/Material/Images/Map_Location.png)  
+![Map]
 - **:pizza: Pie Chart:** RRepresented gender distribution alongside active vs. terminated employee ratios.
-![Pie_Chart](/Material/Images/Pie_Gender.png)  
+![Pie_Chart]  
 - **:fire: Heat Map:** Highlighted relationships and distributions between dimensions. The highest percentages and counts were visually emphasized. Two heat maps were created to analyz relationships between:: 
   - Age Group vs. Education Level
   - Education Level vs. Performance Rating  
   
 *Age Group vs. Education Level*  
-![Heat_Map_1](/Material/Images/Heat_Map_1.png)    
+![Heat_Map_1]  
 *Education Level vs. Performance Rating*  
-![Heat_Map_2](/Material/Images/Heat_Map_2.png)  
+![Heat_Map_2] 
 - **:red_circle::heavy_minus_sign::white_circle: Barbell Chart:** Revealed the gender pay gap across different education levels, providing a clear view of disparities.  
-![Barbell_Chart](/Material/Images/Barbell_Chart.png)  
+![Barbell_Chart]  
 - **:milky_way: Scatter Plot:** Demonstrated the relationship between age and salary, uncovering potential trends and correlations.  
-![Scatter_Plot](/Material/Images/Scatter_Plot.png)  
+![Scatter_Plot]
 ## :four: Dashboard Build
 
 **Overview Dashboard**  
@@ -133,7 +145,8 @@ Added calculated fields for enhanced chart presentation.
 *Detail design for chart containers*  
 ![Dashboard1_3](/Material/Images/Dashboard1_3.png)  
 
-**Employee Details Dashboard**
+**Employee Details Dashboard**  
+
 **:bricks: Structure:**
 - Navigation Bar: Same as Overview Dashboard.
 - Header: Simplified without filters.
