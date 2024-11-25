@@ -28,8 +28,8 @@ This project is created following Baraa Salkini's course on [Udemy](https://www.
 Check out my HR dashboard on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/HumanResourcesDashboard_17325382179870/DetailDashboard).
 
 ## Tools Used
-**:art: Tableau:** A powerful data visualization and business intelligence tool. It enables users to analyze, visualize, and share insights through interactive dashboards and reports.
-**:pencil2: draw.io:** A versatile, web-based diagramming tool. I used draw.io to sketch container structure.
+**:art: Tableau:** A powerful data visualization and business intelligence tool. It enables users to analyze, visualize, and share insights through interactive dashboards and reports.  
+**:pencil2: draw.io:** A versatile, web-based diagramming tool. I used draw.io to sketch container structure.  
 **:octopus:Git & Github:** My go-to for version control and tracking my project progress.
 
 # Steps to Build Dashboards
