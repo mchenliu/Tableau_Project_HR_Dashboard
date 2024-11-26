@@ -101,25 +101,26 @@ ___
 **Charts Used**  
 Each chart type was selected for its ability to effectively communicate specific insights:
 - **:chart_with_upwards_trend: BAN (Big Ass Numbers) + Line Chart:** Ideal for presenting KPIs at a glance. I combined BANs with line charts to show KPIs and trends for active vs. terminated employees over time.
-![BAN]
+![BAN](/Material/Images/Ban.png)  
 - **:bar_chart: Bar Chart:** Effective for visualizing distributions. In this dashboard, bar charts highlighted departmental distribution and breakdowns of education levels and age groups.
-![Bar_Chart](/Material/Images/Bar_Chart.png)
+![Bar_Chart](/Material/Images/Bar_Chart.png)  
 - **:world_map: Map**: Used to illustrate location hierarchies, detailing relationships between location, state, and city.
-![Map]
+![Map](/Material/Images/Map.png)  
 - **:pizza: Pie Chart:** RRepresented gender distribution alongside active vs. terminated employee ratios.
-![Pie_Chart]  
+![Pie_Chart](/Material/Images/Pie.png)  
 - **:fire: Heat Map:** Highlighted relationships and distributions between dimensions. The highest percentages and counts were visually emphasized. Two heat maps were created to analyz relationships between:: 
   - Age Group vs. Education Level
   - Education Level vs. Performance Rating  
   
 *Age Group vs. Education Level*  
-![Heat_Map_1]  
+![Heat_Map_1](/Material/Images/Heat_Map1.png)  
 *Education Level vs. Performance Rating*  
-![Heat_Map_2] 
+![Heat_Map_2](/Material/Images/Heat_Map2.png)  
 - **:red_circle::heavy_minus_sign::white_circle: Barbell Chart:** Revealed the gender pay gap across different education levels, providing a clear view of disparities.  
-![Barbell_Chart]  
+![Barbell_Chart](/Material/Images/Barbell.png)  
 - **:milky_way: Scatter Plot:** Demonstrated the relationship between age and salary, uncovering potential trends and correlations.  
-![Scatter_Plot]
+![Scatter_Plot](/Material/Images/Scattor_Plot.png)  
+
 ## :four: Dashboard Build
 
 **Overview Dashboard**  
