@@ -10,7 +10,6 @@
   - [:three: Build Charts](#three-build-charts)
   - [:four: Dashboard Build](#four-dashboard-build)
 - [Conclusion](#conclusion)
-  - [What I Learned](#what-i-learned)
 
 
 # Human Resources Dashboard | Overview
@@ -175,5 +174,10 @@ Income Analysis: Explored salary distributions by gender and education level.
 ![Navigation](/Material/Images/Navigation.gif)  
 
 # Conclusion
-The two interactive and concise human resources dashboards I created effectively provided key insights into employee demographics, departmental distribution, income levels, performance rating and educational backgrounds.
-## What I Learned
+This project successfully demonstrates the development of two interactive and insightful human resources dashboards: Overview and Employee Details. Using Tableau and draw.io, I transformed HR data into a powerful decision-making tool for HR managers. These dashboards offer:
+- High-Level Insights: The Overview Dashboard provides a comprehensive view of key HR metrics, including employee demographics, departmental breakdowns, performance ratings, and income analysis.
+- Detailed Exploration: The Employee Details Dashboard enables an in-depth analysis of individual employee data, supported by dynamic filters and drill-down capabilities.  
+  
+By combining structured design, effective visualizations, and interactivity, this project achieves its goal of simplifying HR data analysis and delivering actionable insights. The process highlights key skills in data preparation, visualization, and user-centric dashboard design.
+
+:mag: Explore the full dashboards on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/HumanResourcesDashboard_17325382179870/DetailDashboard) to experience the insights firsthand.
