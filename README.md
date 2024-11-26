@@ -33,16 +33,16 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 
 # Steps to Build Dashboards
 ## :one: Define User Requirements
-- Identified **Target Audience:** The dashboard is designed for HR managers, addressing two primary needs:
+- **:office_worker: Identify Target Audience:** The dashboard is designed for HR managers, addressing two primary needs:
   1. Overview: Provides high-level insights into key HR metrics.
   2. Employee Details View: Enables detailed exploration of individual employee data.  
 
-- **Overview:**  
+- **:globe_with_meridians: Overview:**  
 Divided into three sections to provide comprehensive metrics:
   1. Overview: Key HR stats such as hired, active, and terminated employees; department/job breakdowns; HQ vs. branches; and location distribution.
   2. Demographics: Workforce composition by gender, age groups, education levels, and their correlation with performance ratings.
   3. Income Analysis: Salary comparisons by gender and education, and the relationship between age and salary across departments.  
-- **Employee Details View:**
+- **:bulb: Employee Details View:**
   1. Detailed list of employees (name, department, position, gender, age, education, salary).
   2. Fully filterable by any column.
 
@@ -134,10 +134,13 @@ Each chart type was selected for its ability to effectively communicate specific
 Income Analysis: Explored salary distributions by gender and education level.
   - Income Analysis: Discovered correlation between education level, gender and salary
 
-**:paintbrush: Design and Build Process:**
-**Planned and sketched** the layout in draw.io, defining container structure for clarity.
-Pulled charts into Tableau, ensuring dynamic tooltips and interactivity.
-Added calculated fields for enhanced chart presentation.
+**:paintbrush: Design and Build:**
+- **Planned and sketched** the layout in draw.io, defining container structures for clarity.
+- Integrated charts into the Overview Dashboard.
+- Refined the dashboard's design, including colors, text styles, and inner/outer spacing for a polished look.
+- Added filters, dynamic tooltips, and performed thorough testing.
+- Enhanced charts with hierarchies, enabling drill-down functionality and incorporating them into tooltips.
+- Added logos and icons to the navigation bar for a cohesive and branded design.
 
 *Define different objects in the sketch*  
 ![Dashboard1_2](/Material/Images/Dashboard1_2.png)  
@@ -145,6 +148,11 @@ Added calculated fields for enhanced chart presentation.
 ![Dashboard1_1](/Material/Images/Dashboard1_1.png)  
 *Detail design for chart containers*  
 ![Dashboard1_3](/Material/Images/Dashboard1_3.png)  
+*Dynamic tooltips*
+![Tooltip1](/Material/Images/Tooltip_1.gif)  
+*Tooltips with a drilled-down list*  
+![Tooltip2](/Material/Images/Tooltip_2.gif) 
+
 
 **Employee Details Dashboard**  
 
@@ -154,18 +162,18 @@ Added calculated fields for enhanced chart presentation.
 - Filters: Added seven interactive filters above the employee details list.
 - Detail Section: Listed employee information with drill-down capabilities.  
 
-**:paintbrush: Design and Build Process:**
-Created a sketch in draw.io for layout consistency.
-Integrated filters and dynamic calculated fields into Tableau for enhanced interactivity.
-
-
+**:paintbrush: Design and Build:**
+- Created a sketch in draw.io for layout consistency.
+- Integrated filters to enhanced interactivity.
+- Added navigation buttons to facilitate seamless switching between the two dashboards.
 
 *Detail list Dashboard sketch*  
 ![Employee_details_sketch](/Material/Images/Employees_Details_Sketch.png)  
 *Filter design*  
 ![Filter_desgin](/Material/Images/Filter_Design.png)
-
-
+*Switching between dashboards*  
+![Navigation](/Material/Images/Navigation.gif)  
 
 # Conclusion
+The two interactive and concise human resources dashboards I created effectively provided key insights into employee demographics, departmental distribution, income levels, performance rating and educational backgrounds.
 ## What I Learned
