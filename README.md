@@ -1,7 +1,7 @@
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Human Resources Dashboard | Overview](#human-resources-dashboard--overview)
-- [Human Resrouces Dashboard | Details](#human-resrouces-dashboard--details)
+- [Human Resrouces Dashboard | Employee Details](#human-resrouces-dashboard--employee-details)
 - [Introduction](#introduction)
   - [Tools Used](#tools-used)
 - [Steps to Build Dashboards](#steps-to-build-dashboards)
@@ -14,7 +14,7 @@
 
 # Human Resources Dashboard | Overview
 ![Overview_Dashboard](/Material/Images/Overview_Dashboard.gif)
-# Human Resrouces Dashboard | Details
+# Human Resrouces Dashboard | Employee Details
 ![Detailed_Dashboard](/Material/Images/Detailed_Dashboard.gif)
 
 
@@ -28,7 +28,7 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 ## Tools Used
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
 **:pencil2: draw.io:** Used to sketch the container structures for dashboard design.  
-**:octopus:Git & Github:** My go-to for version control and tracking my project progress.  
+**:octopus: Git & Github:** My go-to for version control and tracking my project progress.  
 
 # Steps to Build Dashboards
 ## :one: Define User Requirements
@@ -105,7 +105,7 @@ Each chart type was selected for its ability to effectively communicate specific
 ![Bar_Chart](/Material/Images/Bar_Chart.png)  
 - **:world_map: Map**: Used to illustrate location hierarchies, detailing relationships between location, state, and city.
 ![Map](/Material/Images/Map.png)  
-- **:pizza: Pie Chart:** RRepresented gender distribution alongside active vs. terminated employee ratios.
+- **:pizza: Pie Chart:** Represented gender distribution alongside active vs. terminated employee ratios.
 ![Pie_Chart](/Material/Images/Pie.png)  
 - **:fire: Heat Map:** Highlighted relationships and distributions between dimensions. The highest percentages and counts were visually emphasized. Two heat maps were created to analyz relationships between:: 
   - Age Group vs. Education Level
@@ -169,7 +169,7 @@ Income Analysis: Explored salary distributions by gender and education level.
 *Detail list Dashboard sketch*  
 ![Employee_details_sketch](/Material/Images/Employees_Details_Sketch.png)  
 *Filter design*  
-![Filter_desgin](/Material/Images/Filter_Design.png)
+![Filter_desgin](/Material/Images/Filter_Design.png)  
 *Switching between dashboards*  
 ![Navigation](/Material/Images/Navigation.gif)  
 
@@ -180,4 +180,4 @@ This project successfully demonstrates the development of two interactive and in
   
 By combining structured design, effective visualizations, and interactivity, this project achieves its goal of simplifying HR data analysis and delivering actionable insights. The process highlights key skills in data preparation, visualization, and user-centric dashboard design.
 
-:mag: Explore the full dashboards on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/HumanResourcesDashboard_17325382179870/DetailDashboard) to experience the insights firsthand.
+:mag: Explore the full dashboards on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/HumanResourcesDashboard_17325382179870/DetailDashboard).
