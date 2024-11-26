@@ -60,41 +60,15 @@ Divided into three sections to provide comprehensive metrics:
   - Age Groups: Grouped employees into age ranges.
   - Highlighting: Created dynamic highlights for top metrics.  
 
-*1. Employee Location:*
-```
-CASE [State]
-    WHEN 'New York' THEN 'HQ
-    ELSE 'Branch'
-END
-```
-*2. Total Employee Terminated:*
-```
-COUNT(
-    IF NOT ISNULL([Termdate])
-    THEN[Employee ID]
-END)
-```
-*3. Age:*
-```
-DATEDIFF('year',[Birthdate],TODAY())
-```
-*4. Employee Age Group:*
-```
-IF [Age] < 25 THEN '<25'
-ELSEIF [Age] >=25 AND [Age] < 35 THEN '25-35'
-ELSEIF [Age] >=35 AND [Age] < 45 THEN '35-45'
-ELSEIF [Age] >=45 AND [Age] < 55 THEN '45-55'
-ELSEIF [Age] >=55 THEN '55+'
-END
-``` 
-*5. Highlight Max:*
-```
-WINDOW_MAX([Total Hired]) = [Total Hired]
-```
-*6. Highlight Top 2 Job Titles:*
-```
-RANK([% Total Hired]) <= 2
-```
+
+| Field Name                                                | Formula                                                                                     
+|-----------------------------|----------------------------------------------------------------------------------------------|
+| Employee Location      | `CASE [State]`<br> `WHEN 'New York' THEN 'HQ'`<br> `ELSE 'Branch'` <br>`END`                                   |
+| Total Employee Terminated | `COUNT( IF NOT ISNULL ([Termdate])`<br>`THEN [Employee ID]` <br> `END)`                                 |
+| Age                     | `DATEDIFF('year', [Birthdate], TODAY())`                                                    |
+| Employee Age Groups      | `IF [Age] < 25 THEN '<25'`<br>`ELSEIF [Age] >= 25 AND [Age] < 35 THEN '25-35'`<br>`ELSEIF [Age] >= 35 AND [Age] < 45 THEN '35-45'`<br>`ELSEIF [Age] >= 45 AND [Age] < 55 THEN '45-55'`<br>`ELSEIF [Age] >= 55 THEN '55+'`<br> `END` |
+| Highlight Max | `WINDOW_MAX([Total Hired]) = [Total Hired]`|
+| Highlight Top 2 Job Titles | `RANK([% Total Hired]) <= 2`|
 
 ___
 **Charts Used**  
@@ -107,7 +81,7 @@ Each chart type was selected for its ability to effectively communicate specific
 ![Map](/Material/Images/Map.png)  
 - **:pizza: Pie Chart:** Represented gender distribution alongside active vs. terminated employee ratios.
 ![Pie_Chart](/Material/Images/Pie.png)  
-- **:fire: Heat Map:** Highlighted relationships and distributions between dimensions. The highest percentages and counts were visually emphasized. Two heat maps were created to analyz relationships between:: 
+- **:fire: Heat Map:** Highlighted relationships and distributions between dimensions. The highest percentages and counts were visually emphasized. Two heat maps were created to analyze relationships between:: 
   - Age Group vs. Education Level
   - Education Level vs. Performance Rating  
   
