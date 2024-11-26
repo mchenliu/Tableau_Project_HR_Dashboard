@@ -28,6 +28,7 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 ## Tools Used
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
 **:pencil2: draw.io:** Used to sketch the container structures for dashboard design.  
+**:computer: Visual Studio Code:** A lightweight, versatile code editor. I utilized Visual Studio Code to edit project scripts and manage images, ensuring seamless integration and synchronization with GitHub for version control and collaboration.  
 **:octopus: Git & Github:** My go-to for version control and tracking my project progress.  
 
 # Steps to Build Dashboards
