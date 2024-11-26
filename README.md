@@ -49,29 +49,26 @@ Divided into three sections to provide comprehensive metrics:
 - Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
 - Explored the data using Tableau worksheets to understand relationships and potential insights.
 ## :three: Build Charts
-- **Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.
-- **Template Design:** Created a reusable template defining the following:
+- **:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.
+- **:triangular_ruler: Template Design:** Created a reusable template defining the following:
   - Colors: `#03c4a1`, `#c52a87`, `#777777` and `#f5f5f5`
   - Font: Trebuchet MS
   - Background: Dark theme
 
-- Developed **calculated fields** to enhance chart functionality
-  - Employee Location: Categorized locations into HQ and branches.
-  - Age Groups: Grouped employees into age ranges.
-  - Highlighting: Created dynamic highlights for top metrics.  
+- **:1234: Calculated fields** developed to enhance chart functionality: 
 
 
 | Field Name                                                | Formula                                                                                     
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| Employee Location      | `CASE [State]`<br> `WHEN 'New York' THEN 'HQ'`<br> `ELSE 'Branch'` <br>`END`                                   |
+| Employee Location <br> (Categorized locations <br> into HQ and branches)    | `CASE [State]`<br> `WHEN 'New York' THEN 'HQ'`<br> `ELSE 'Branch'` <br>`END`                                   |
 | Total Employee Terminated | `COUNT( IF NOT ISNULL ([Termdate])`<br>`THEN [Employee ID]` <br> `END)`                                 |
 | Age                     | `DATEDIFF('year', [Birthdate], TODAY())`                                                    |
-| Employee Age Groups      | `IF [Age] < 25 THEN '<25'`<br>`ELSEIF [Age] >= 25 AND [Age] < 35 THEN '25-35'`<br>`ELSEIF [Age] >= 35 AND [Age] < 45 THEN '35-45'`<br>`ELSEIF [Age] >= 45 AND [Age] < 55 THEN '45-55'`<br>`ELSEIF [Age] >= 55 THEN '55+'`<br> `END` |
-| Highlight Max | `WINDOW_MAX([Total Hired]) = [Total Hired]`|
+| Age Groups <br> (Grouped employees <br> into age ranges)     | `IF [Age] < 25 THEN '<25'`<br>`ELSEIF [Age] >= 25 AND [Age] < 35`<br> `THEN '25-35'`<br>`ELSEIF [Age] >= 35 AND [Age] < 45` <br> `THEN '35-45'`<br>`ELSEIF [Age] >= 45 AND [Age] < 55`<br> `THEN '45-55'`<br>`ELSEIF [Age] >= 55 THEN '55+'`<br> `END` |
+| Highlight Max <br> (Created dynamic highlights <br> for top metrics) | `WINDOW_MAX([Total Hired]) = [Total Hired]`|
 | Highlight Top 2 Job Titles | `RANK([% Total Hired]) <= 2`|
 
 ___
-**Charts Used**  
+**:abacus: Charts Used**  
 Each chart type was selected for its ability to effectively communicate specific insights:
 - **:chart_with_upwards_trend: BAN (Big Ass Numbers) + Line Chart:** Ideal for presenting KPIs at a glance. I combined BANs with line charts to show KPIs and trends for active vs. terminated employees over time.
 ![BAN](/Material/Images/Ban.png)  
