@@ -50,13 +50,13 @@ Divided into three sections to provide comprehensive metrics:
 - Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
 - Explored the data using Tableau worksheets to understand relationships and potential insights.
 ## :three: Build Charts
-- **:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.
-- **:triangular_ruler: Template Design:** Created a reusable template defining the following:
+**:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.
+**:triangular_ruler: Template Design:** Created a reusable template defining the following:
   - Colors: `#03c4a1`, `#c52a87`, `#777777` and `#f5f5f5`
   - Font: Trebuchet MS
   - Background: Dark theme
 
-- **:1234: Calculated fields** developed to enhance chart functionality: 
+**:1234: Calculated fields** developed to enhance chart functionality: 
 
 
 | Field Name                                                | Formula                                                                                     
